@@ -182,7 +182,7 @@ const Navs = () => {
             <DocsExample href="components/nav#tabs">
               <CNav variant="tabs">
                 <CNavItem>
-                  <CNavLink href="#" active>
+                  <CNavLink href="#/myqrqc" active>
                     Active
                   </CNavLink>
                 </CNavItem>

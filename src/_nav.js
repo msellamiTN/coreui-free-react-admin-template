@@ -27,6 +27,12 @@ const _nav = [
     },
   },
   {
+    component: CNavItem,
+    name: 'MY QRQC',
+    to: '/myqrqc',
+    icon: <CIcon icon={cilPuzzle} customClassName="nav-icon" />,
+  },
+  {
     component: CNavTitle,
     name: 'Theme',
   },

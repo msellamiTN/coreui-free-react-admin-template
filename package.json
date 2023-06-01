@@ -29,6 +29,7 @@
     "@coreui/react": "^4.6.0",
     "@coreui/react-chartjs": "^2.1.2",
     "@coreui/utils": "^2.0.1",
+    "axios": "^1.4.0",
     "chart.js": "^3.9.1",
     "classnames": "^2.3.2",
     "core-js": "^3.29.0",
@@ -39,7 +40,10 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.8.2",
     "redux": "4.2.1",
-    "simplebar-react": "^2.4.3"
+    "redux-thunk": "^2.4.2",
+    "simplebar-react": "^2.4.3",
+    "@glideapps/glide-data-grid": "5.2.1",
+    "react-responsive-carousel": "3.2.23"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -47,7 +51,7 @@
     "@testing-library/user-event": "^14.4.3",
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "2.8.4",
+    "prettier": "^2.8.4",
     "react-scripts": "5.0.1",
     "sass": "^1.58.3",
     "web-vitals": "^3.1.1"

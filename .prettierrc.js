@@ -5,3 +5,9 @@ module.exports = {
   printWidth: 100,
   tabWidth: 2
 };
+rules= {
+  "prettier/prettier": ["error",{
+    "endOfLine": "auto"}
+  ]
+
+}
