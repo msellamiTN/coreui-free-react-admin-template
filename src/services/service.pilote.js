@@ -1,4 +1,4 @@
-import http from '../services/http-common'
+import http from './http-common'
 class PiloteDataService {
   getAll() {
     return http.get('/pilote')
