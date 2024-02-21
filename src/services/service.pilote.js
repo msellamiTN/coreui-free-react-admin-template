@@ -1,15 +1,15 @@
 import http from '../services/http-common'
 class PiloteDataService {
   getAll() {
-    return http.get('/pilotes')
+    return http.get('/pilote')
   }
 
   get(name) {
-    return http.get(`/pilotes/?name=${name}`)
+    return http.get(`/pilotes/?nom=${name}`)
   }
 
   create(data) {
-    return http.post('/pilotes', data)
+    return http.post('/pilote', data)
   }
 
   update(id, data) {
